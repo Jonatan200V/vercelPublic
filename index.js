@@ -10,6 +10,9 @@ app.use(cors());
 // app.use(logger());
 app.use(bodyParser.json());
 
+app.get("/", (req, res) => {
+  res.json(data);
+});
 app.get("/api/yugioh", (req, res) => {
   res.json(data);
 });
