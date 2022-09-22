@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const data = require("../data/data");
+const data = require("./data/data");
 const fs = require("fs");
 const bodyParser = require("body-parser");
 // const logger = require("morgan");
